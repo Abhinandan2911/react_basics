@@ -1,0 +1,64 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    background-color: #20c3f5; /* Dark background color */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    padding: 10px 0; /* Add some vertical padding */
+  }
+  
+  nav li {
+    border-radius: 12px;
+    color: rgb(0, 0, 0); /* Text color */
+    padding: 10px 20px; /* Add padding around each item */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  nav li:hover {
+    background: rgb(95, 0, 184);
+    border-radius: 12px; /* Change background color on hover */
+  }
+
+  button{
+    padding: 12px;
+    background: rgb(235, 205, 74);
+    border-radius: 12px;
+  }
+  .container{
+       
+    padding:7%;
+
+  }
+  footer{
+    background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+  }
+  body{
+    background-color: rgb(255, 255, 255); 
+  }
+  #name{
+    font-weight: bold;
+    color: rgb(95, 0, 184);
+    font-size: large;
+    
+  }
+  p{
+    word-spacing: 3px;
+    line-height: 30px;
+    white-space-collapse: 12px;
+  }
